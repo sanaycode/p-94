@@ -8,7 +8,7 @@ function name(user_name){
 }
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyD9OEtCuBrmtdP010W5BkJlw1saD57iXls",
     authDomain: "p-94andetc.firebaseapp.com",
     databaseURL: "https://p-94andetc-default-rtdb.firebaseio.com",
@@ -19,4 +19,4 @@ const firebaseConfig = {
   };
   
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
